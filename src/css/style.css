@@ -71,6 +71,12 @@ img {
      object-fit: cover;
 }
 
+@media (max-width: 768px) {
+  .card .user img {
+    border-width: .3rem;
+  }
+}
+
 .card .user .user-name {
   font-size: 1.6rem;
   font-weight: 500;
@@ -104,6 +110,7 @@ img {
   .card .w-1 .line {
     height: 6rem;
     margin-top: -1rem;
+    border-width: .2rem;
   }
 }
 

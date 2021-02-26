@@ -82,6 +82,9 @@ img {
             border-radius: 50%;
             border: .5rem solid $color-2;
             object-fit: cover;
+            @include mobile {
+                border-width: .3rem;
+            }
         }
         .user-name {
             font-size: 1.6rem;
@@ -112,6 +115,7 @@ img {
             @include mobile {
                 height: 6rem;
                 margin-top: -1rem;
+                border-width: .2rem;
             }
         }
     }
