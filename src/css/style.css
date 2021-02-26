@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+/* Responsive */
+/* Reset Code */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* Main Style Sheet */
+.w-1 {
+  width: 100%;
+}
+
+.w-2 {
+  width: 50%;
+}
+
+.w-4 {
+  width: 25%;
+}
+
+.w-8 {
+  width: 12.5%;
+}
+
+.card {
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+.card .w-1 img {
+  border-color: #f1c40f !important;
+}
+
+.card .user {
+  width: 10rem;
+  height: 10rem;
+  position: relative;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+.card .user img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 0.5rem solid #11cdef;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card .user .user-name {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #bbbbbb;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .card .user .user-name {
+    display: none;
+  }
+}
+
+.card .line {
+  height: 8rem;
+  border: .2rem solid #bbbbbb;
+  border-bottom: none;
+  width: 52%;
+  margin-left: 24%;
+  margin-top: -2rem;
+}
+
+@media (max-width: 768px) {
+  .card .w-1 .user {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card .w-1 .line {
+    height: 6rem;
+    margin-top: -1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card .w-2 .user {
+    width: 7rem;
+    height: 7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card .w-2 .line {
+    height: 5rem;
+    margin-top: -1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card .w-4 .user {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card .w-4 .line {
+    height: 4rem;
+    margin-top: -.5rem;
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card .w-8 .user {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
